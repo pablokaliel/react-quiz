@@ -9,9 +9,7 @@ function Option({ option, selectOption, answer }) {
     <div
       className={`option ${
         quizState.answerSelected && option === answer ? "correct" : ""
-      } ${
-        quizState.answerSelected && option !== answer ? "wrong" : ""
-      }`}
+      } ${quizState.answerSelected && option !== answer ? "wrong" : ""}`}
       onClick={() => selectOption()}
     >
       <p>{option}</p>
