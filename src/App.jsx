@@ -2,7 +2,7 @@ import { useContext,useEffect } from 'react';
 import { QuizContext } from './context/quiz';
 
 import Welcome from './components/welcome';
-import Question from './components/question/quest';
+import Question from './components/question';
 import GameOver from './components/gameOver';
 
 import './App.css';
