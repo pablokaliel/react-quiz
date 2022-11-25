@@ -14,8 +14,31 @@
 
 #welcome p {
   color: #8435de;
-  }
+}
 
 #welcome img {
   margin-top: 2.2rem;
+}
+
+#welcome button {
+  font-weight: bold;
+  font-size: 1.2rem;
+  cursor: pointer;
+  padding: 0.8rem 1.5rem;
+  transition: all 0.4s ease-out;
+  background: linear-gradient(
+    90deg,
+    rgb(134, 60, 219) 0%,
+    rgb(185, 95, 226) 100%
+  );
+  border-radius: 3rem;
+  border: none;
+}
+
+#welcome button:hover {
+  background: linear-gradient(
+    90deg,
+    rgba(119, 0, 255, 0.753) 0%,
+    rgb(174, 0, 255) 100%
+  );
 }

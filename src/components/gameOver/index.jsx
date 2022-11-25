@@ -1,5 +1,6 @@
 import { useContext } from "react";
 import { QuizContext } from "../../context/quiz";
+import { VscDebugRestart } from "react-icons/vsc";
 import wellDone from "../../assets/welldone.svg";
 import "./styles.css";
 
@@ -14,7 +15,10 @@ function GameOver() {
         perguntas.
       </p>
       <img src={wellDone} alt="Fim" />
-      <button onClick={() => dispatch({ type: "NEW_GAME" })}>Reiniciar</button>
+      <button onClick={() => dispatch({ type: "NEW_GAME" })}>
+        <VscDebugRestart style={{ position: "relative", top: 3, right: 4 }} />
+        Reiniciar{" "}
+      </button>
     </div>
   );
 }
