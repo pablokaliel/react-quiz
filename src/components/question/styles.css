@@ -43,3 +43,15 @@
     rgb(174, 0, 255) 100%
   );
 }
+
+#question .btnreiniciar{
+  background:transparent;
+  border: 1px solid #d4d2d2;
+  padding: 0.3rem 0.8em;
+  font-size: 0.9rem;
+  margin:1rem 0rem ;
+}
+
+#question .btnreiniciar:hover{
+  background: rgb(89, 23, 212);
+}
