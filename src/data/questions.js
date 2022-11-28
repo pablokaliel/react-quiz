@@ -71,6 +71,48 @@ const data = [
     options: ["qty", "length", "items", "index"],
     answer: "length",
   },
+  {
+    question:
+      "O que significa HTML?",
+    options: ["HyperLinks and Text markup Language", "Hyper Text Markup Language", "Home Tool Markup Language"],
+    answer: "Hyper Text Markup Language",
+  },
+  {
+    question:
+      "Qual atributo HTML especifica um texto alternativo para uma imagem, se a imagem não puder ser exibida?",
+    options: ["longdesc", "title", "src", "alt"],
+    answer: "alt",
+  },
+  {
+    question:
+      "O que significa CSS?",
+    options: ["Computer Style Seets", "Cascading Style Sheets", "Creative Style Sheets", "Colorful Style Sheets"],
+    answer: "Cascading Style Sheets",
+  },
+  {
+    question:
+      "Como você insere um comentário em um arquivo CSS?",
+    options: ["//comentario//", "'comentario", "/*comentario*/", "//comentario"],
+    answer: "/*comentario*/"
+  },
+  {
+    question:
+      "Como você seleciona todos os elementos p dentro de um elemento div?",
+    options: ["div.p", "div p", "div + p ",],
+    answer: "div p",
+  },
+  {
+    question:
+      "Como você adiciona uma cor de fundo para todos os elementos <h1>",
+    options: ["h1 {background-color:#FFF}", "all.h1 {background-color:#FFF}", "h1.all {background-color:#FFF}"],
+    answer: "h1 {background-color:#FFF}",
+  },
+  {
+    question:
+      "Como você exibe uma borda como esta: A borda superior = 10 pixels, A borda inferior = 5 pixels, A borda esquerda = 20 pixels, A borda direita = 1 pixel?",
+    options: ["border-width:10px 20px 5px 1px", "border-width:10px 5px 20px 1px", "border-width: 5px 20px 10px 1px","border-width: 10px 1px 5px 20px"],
+    answer: "border-width:10px 20px 5px 1px",
+  },
 ];
 
 export default data;

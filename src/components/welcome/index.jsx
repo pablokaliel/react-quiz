@@ -10,8 +10,8 @@ function Welcome() {
   return (
     <div id="welcome">
       <h2>Seja bem-Vindo</h2>
-      <p>Clique no botão abaixo para começar <br/><br/>
-      [ Contém perguntas aleatórias sobre : HTML,CSS,Javascript ]
+      <p className="description">Este é um quiz com 20 perguntas aleatórias sobre: <span>Html,Css,JavaScript</span></p>
+      <p>Clique no botão abaixo para começar 
       </p>
       <button onClick={() => dispatch({ type: "CHANGE_STATE" })}>
         Iniciar <FiPlay  style={{ position: "relative", top: 3, left: 3 }}/>
