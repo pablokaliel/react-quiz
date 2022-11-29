@@ -6,7 +6,7 @@
   padding: 2rem;
   margin-top: 1rem;
   min-height: 500px;
-  box-shadow: 6px 3px 15px 10px rgb(65 39 82 / 60%);
+  box-shadow: 0 0 10px #552e6ed5, 0 0 20px #552e6ed5, 0 0 40px #552e6ed5;
 }
 
 #question h2 {
