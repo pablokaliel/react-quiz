@@ -19,10 +19,11 @@
 
 .social-icon a {
   font-size: 1.5rem;
-  color: #fff;
+  color: rgba(0, 0, 0, 0.719);
   margin: 0 15px;
   display: inline-block;
   transition: all 0.4s;
+  opacity: 0.67;
 }
 
 .footer span {
@@ -45,4 +46,5 @@
 .footer .social-icon li a:hover {
   transform: translateY(-5px);
   scale: 1.2;
+  opacity: 1;
 }
