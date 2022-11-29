@@ -29,20 +29,13 @@
   padding: 0.8rem 1.5rem;
   transition: all 0.8s ease-out;
   border: none;
-  background: linear-gradient(
-    90deg,
-    rgb(134, 60, 219) 0%,
-    rgb(185, 95, 226) 100%
-  );
+  background: transparent;
+  box-shadow: inset 0px 5px 10px 0px rgb(141, 2, 255);
   border-radius: 3rem;
 }
 
 #gameover button:hover {
-  background: linear-gradient(
-    90deg,
-    rgba(119, 0, 255, 0.753) 0%,
-    rgb(174, 0, 255) 100%
-  );
+  box-shadow: inset 0px 10px 20px 2px rgba(120, 2, 255, 0.842);
 }
 
 

@@ -24,24 +24,17 @@
 #question button {
   font-weight: bold;
   font-size: 1.2rem;
+  background: transparent;
   cursor: pointer;
   padding: 0.8rem 1.5rem;
   transition: all 0.4s ease-out;
   border: 2px solid #fff;
-  background: linear-gradient(
-    90deg,
-    rgb(134, 60, 219) 0%,
-    rgb(185, 95, 226) 100%
-  );
+  box-shadow: inset 0px 5px 10px 0px rgba(112, 2, 255, 0.856);
   border-radius: 3rem;
 }
 
 #question button:hover {
-  background: linear-gradient(
-    90deg,
-    rgba(119, 0, 255, 0.753) 0%,
-    rgb(174, 0, 255) 100%
-  );
+  box-shadow: inset 0px 10px 20px 2px rgb(91, 2, 255);
 }
 
 #question .btnreiniciar{
