@@ -21,7 +21,10 @@ function Question() {
       <p>
         Pergunta {quizState.currentQuestion + 1} de {quizState.questions.length}
       </p>
-      <button  className="btnreiniciar" onClick={() => dispatch({ type: "NEW_GAME" })}>
+      <button
+        className="btnreiniciar"
+        onClick={() => dispatch({ type: "NEW_GAME" })}
+      >
         <VscDebugRestart style={{ position: "relative", top: 3, right: 4 }} />
         Reiniciar{" "}
       </button>
@@ -44,7 +47,6 @@ function Question() {
           <AiOutlineArrowRight
             style={{ position: "relative", top: 3, left: 3 }}
           />
-           
         </button>
       )}
     </div>
