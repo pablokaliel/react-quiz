@@ -11,8 +11,8 @@ function Welcome() {
   return (
     <div className="container">
       <div id="welcome">
-       <div className="animation">
-        <h2 className="line typing-animation">Seja bem-Vindo</h2>
+        <div className="animation">
+          <h2 className="line typing-animation">Seja bem-Vindo</h2>
         </div>
         <p className="description">
           Este é um quiz com 20 perguntas aleatórias sobre:{" "}

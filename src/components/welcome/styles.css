@@ -17,21 +17,22 @@
   position: relative;
 }
 
-.typing-animation{
-  animation: linkCursor 500ms steps(30) infinite normal, typing 4s steps(30) 1s normal both;
+.typing-animation {
+  animation: linkCursor 500ms steps(40) infinite normal,
+    typing 2.3s steps(30) 1s normal both;
 }
 
 @keyframes typing {
-  from{
+  from {
     width: 0;
   }
-  to{
+  to {
     width: 21rem;
   }
 }
 
 @keyframes linkCursor {
-  from{
+  from {
     border-right-color: #fff9;
   }
   to {
@@ -64,23 +65,23 @@
   transform: translateY(-5px);
 }
 
-#welcome .description{
+#welcome .description {
   font-size: 1.2rem;
-  color:#838383;
+  color: #838383;
 }
 
-#welcome .footer{
+#welcome .footer {
   width: 100%;
 }
 
-.container{
+.container {
   width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-#welcome .animation{
+#welcome .animation {
   width: 100%;
   display: flex;
   align-items: center;

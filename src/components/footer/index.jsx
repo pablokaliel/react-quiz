@@ -1,5 +1,5 @@
 import { BsInstagram, BsGithub, BsTwitter } from "react-icons/bs";
-import { FaDiscord} from "react-icons/fa";
+import { FaDiscord } from "react-icons/fa";
 import "./styles.css";
 
 function Footer() {
