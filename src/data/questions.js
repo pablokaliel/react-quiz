@@ -20,7 +20,7 @@ const data = [
   ],
     answer: "color",
   },
-  {
+{
     question: "Para aumentar a fonte de um elemento utilizamos:",
     options: [
     "font",
@@ -163,12 +163,10 @@ const data = [
   },
   {
     question: "Como você insere um comentário em um arquivo CSS?",
-    options: [
-      "//comentario//",
-      "'comentario",
-      "/*comentario*/",
-      "//comentario",
-    ],
+   options: [
+     "'comentario",
+     "/*comentario*/",
+   ],
     answer: "/*comentario*/",
   },
   {
@@ -177,7 +175,8 @@ const data = [
     options: [
     "div.p",
     "div p",
-    "div + p "
+    "div + p ",
+    "div {p}"
   ],
     answer: "div p",
   },
@@ -185,6 +184,7 @@ const data = [
     question:
       "Como você adiciona uma cor de fundo para todos os elementos <h1>",
     options: [
+      "h1 {color:#FFF}",
       "h1 {background-color:#FFF}",
       "all.h1 {background-color:#FFF}",
       "h1.all {background-color:#FFF}",
