@@ -164,8 +164,10 @@ const data = [
   {
     question: "Como você insere um comentário em um arquivo CSS?",
    options: [
-     "'comentario",
+    "//comentario//", 
+    "'comentario",
      "/*comentario*/",
+     "//comentario",
    ],
     answer: "/*comentario*/",
   },
