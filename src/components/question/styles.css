@@ -48,3 +48,10 @@
 #question .btnreiniciar:hover {
   background: rgb(89, 23, 212);
 }
+
+@media only screen and (max-width: 768px)  {
+  #question {
+    margin: 0 15px;
+  }
+}
+ 
