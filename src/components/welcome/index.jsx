@@ -10,7 +10,7 @@ function Welcome() {
 
   return (
     <div className="container">
-      <div id="welcome">
+      <div className="welcome">
         <div className="animation">
           <h2 className="line typing-animation">Seja bem-Vindo</h2>
         </div>

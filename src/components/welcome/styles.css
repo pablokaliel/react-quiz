@@ -1,15 +1,15 @@
-#welcome {
+.welcome {
   text-align: center;
   max-width: 600px;
   height: 90%;
 }
 
-#welcome h2,
-#welcome p {
+.welcome h2,
+.welcome p {
   margin-bottom: 1.2rem;
 }
 
-#welcome .line {
+.welcome .line {
   font-size: 2.7rem;
   border-right: 2px solid #fff9;
   white-space: nowrap;
@@ -40,15 +40,15 @@
   }
 }
 
-#welcome p {
+.welcome p {
   color: #8435de;
 }
 
-#welcome img {
+.welcome img {
   margin-top: 2.2rem;
 }
 
-#welcome button {
+.welcome button {
   font-weight: bold;
   font-size: 1.2rem;
   cursor: pointer;
@@ -60,17 +60,17 @@
   box-shadow: inset 0px 5px 10px 0px rgb(141, 2, 255);
 }
 
-#welcome button:hover {
+.welcome button:hover {
   box-shadow: inset 0px 10px 20px 2px rgba(120, 2, 255, 0.842);
   transform: translateY(-5px);
 }
 
-#welcome .description {
+.welcome .description {
   font-size: 1.2rem;
   color: #838383;
 }
 
-#welcome .footer {
+.welcome .footer {
   width: 100%;
 }
 
@@ -81,7 +81,7 @@
   align-items: center;
 }
 
-#welcome .animation {
+.welcome .animation {
   width: 100%;
   display: flex;
   align-items: center;
@@ -89,12 +89,12 @@
 }
 
 @media only screen and (max-width: 458px)  {
- #welcome .description {
+ .welcome .description {
   display: flex;
   flex-direction: column;
 }
 
-#welcome .description span{
+.welcome .description span{
    margin-top: 1rem;
  }
   

@@ -17,7 +17,7 @@ function Question() {
   };
 
   return (
-    <div id="question">
+    <div className="question">
       <p>
         Pergunta {quizState.currentQuestion + 1} de {quizState.questions.length}
       </p>
@@ -29,7 +29,7 @@ function Question() {
         Reiniciar{" "}
       </button>
       <h2>{currentQuestion.question}</h2>
-      <div id="options-container">
+      <div className="options-container">
         <p>
           {currentQuestion.options.map((option) => (
             <Option

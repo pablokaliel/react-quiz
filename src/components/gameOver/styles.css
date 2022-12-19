@@ -1,28 +1,28 @@
-#gameover {
+.gameover {
   text-align: center;
   max-width: 600px;
   display: flex;
   flex-direction: column;
 }
 
-#gameover h2 {
+.gameover h2 {
   margin-bottom: 1rem;
   font-size: 3rem;
   font-weight: bold;
 }
 
-#gameover p {
+.gameover p {
   color: #8435de;
   font-size: 1.3rem;
   margin-bottom: 1rem;
 }
 
-#gameover img {
+.gameover img {
   margin: 2rem;
   height: 300px;
 }
 
-#gameover button {
+.gameover button {
   font-weight: bold;
   font-size: 1.2rem;
   cursor: pointer;
@@ -34,7 +34,7 @@
   border-radius: 3rem;
 }
 
-#gameover button:hover {
+.gameover button:hover {
   box-shadow: inset 0px 10px 20px 2px rgba(120, 2, 255, 0.842);
   transform: translateY(-5px);
 }

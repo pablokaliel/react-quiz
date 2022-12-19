@@ -7,7 +7,7 @@ import "./styles.css";
 function GameOver() {
   const [quizState, dispatch] = useContext(QuizContext);
   return (
-    <div id="gameover">
+    <div className="gameover">
       <h2>Fim de jogo</h2>
       <p>Pontuação: {quizState.score}</p>
       <p>

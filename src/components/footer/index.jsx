@@ -7,22 +7,34 @@ function Footer() {
     <footer className="footer">
       <ul className="social-icon">
         <li>
-          <a href="#">
+          <a href="https://www.instagram.com/pablokallyel/"
+          rel="noopener noreferrer"
+          target="_blank"
+          >
             <BsInstagram />
           </a>
         </li>
         <li>
-          <a href="#">
+          <a href="https://github.com/pablokaliel"
+          rel="noopener noreferrer"
+          target="_blank"
+          >
             <BsGithub />
           </a>
         </li>
         <li>
-          <a href="#">
+          <a href="https://www.instagram.com/pablokallyel/"
+          rel="noopener noreferrer"
+          target="_blank"
+          >
             <BsTwitter />
           </a>
         </li>
         <li>
-          <a href="#">
+          <a href="#"
+          rel="https://github.com/pablokaliel"
+          target="_blank"
+          >
             <FaDiscord />
           </a>
         </li>
